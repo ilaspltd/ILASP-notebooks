@@ -23,5 +23,7 @@ RUN adduser --disabled-password \
 WORKDIR ${HOME}
 USER ${USER}
 
+RUN apt-get -y install wget
+
 RUN wget https://github.com/ilaspltd/ILASP-releases/releases/download/v4.3.1/ILASP-4.3.1-ubuntu.tar.gz
 RUN tar -xzf ILASP-4.3.1-ubuntu.tar.gz
