@@ -1,5 +1,7 @@
 FROM ubuntu
 RUN apt-get update
+RUN apt-get install software-properties-common
+RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get -y install libpython3.9
 
 # install the notebook package
