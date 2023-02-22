@@ -4,3 +4,4 @@ channels:
   - defaults
 dependencies:
   - python=3.9
+  - gcc_linux-64>=11.1
