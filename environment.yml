@@ -5,4 +5,4 @@ channels:
 dependencies:
   - python=3.9
   - gcc_linux-64>=11.1
-  - libgcc>=11.1
+  - libgcc>=7.2
