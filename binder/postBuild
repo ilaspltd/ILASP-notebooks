@@ -1,2 +1,2 @@
-wget https://github.com/ilaspltd/ILASP-releases/releases/download/v4.3.1/ILASP-4.3.1-ubu
+wget https://github.com/ilaspltd/ILASP-releases/releases/download/v4.3.1/ILASP-4.3.1-ubuntu.tar.gz
 tar -xzf ILASP-4.3.1-ubuntu.tar.gz
