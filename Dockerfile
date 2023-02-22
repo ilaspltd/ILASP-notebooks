@@ -4,10 +4,11 @@ RUN apt-get update
 RUN apt-get -y install software-properties-common
 RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get -y install libpython3.9
+RUN apt-get -y install python3-pip
 
 # install the notebook package
-RUN pip install --no-cache --upgrade pip && \
-    pip install --no-cache notebook jupyterlab
+RUN pip3 install --no-cache --upgrade pip && \
+    pip3 install --no-cache notebook jupyterlab
 
 # create user with a home directory
 ARG NB_USER
